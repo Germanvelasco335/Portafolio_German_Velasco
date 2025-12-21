@@ -28,13 +28,11 @@ nav a {
     color: aliceblue;
 }
 
-.container {
-    
-}
-
 img {
-    width: 400px;
     height: 400px;
+    width: 400px;
     border-radius: 50%;
-    
+    object-fit: fill;
+    display: flex;
+    justify-self: end;
 }
